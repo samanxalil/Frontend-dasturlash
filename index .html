@@ -1,66 +1,30 @@
-<!doctype html>
-<html lang="uz">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CSS Card Hover Effect</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="main.css" />
-  </head>
-  <body>
-    <div class="main-wrapper">
-      <div class="login-container">
-        <h2 class="title">Login</h2>
-        <p class="subtitle">
-          Don't have an account yet? <a href="#">Sign up for free</a>
-        </p>
-        <form>
-          <div class="input-group">
-            <label>Username Or Email</label>
-            <input type="text" placeholder="Ali" />
-          </div>
-          <div class="input-group">
-            <label>Password</label>
-            <input type="password" placeholder="****************" />
-          </div>
-          <div class="form-footer">
-            <label class="remember-me"
-              ><input type="checkbox" /> Remember me</label
-            >
-            <a href="#" class="forgot-password">Forgot your password?</a>
-          </div>
-          <button type="submit" class="login-btn">Login</button>
-        </form>
-      </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Layout Reconstruction</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-      <div class="course-card">
-        <div class="video-preview">
-          <div class="play-button">▶</div>
+    <div class="canvas">
+        <div class="shape red-rect"></div>
+        <div class="shape purple-rect"></div>
+
+        <div class="shape teal-rect"></div>
+
+        <div class="shape dark-teal-rect"></div>
+
+        <div class="shape blue-rect"></div>
+
+        <div class="shape circle-outer">
+            <div class="circle-inner"></div>
         </div>
-        <div class="card-content">
-          <div class="price-section">
-            <span class="current-price">700 ming so'm</span>
-            <span class="old-price">980 ming so'm</span>
-          </div>
-          <button class="start-btn">Kursni boshlash</button>
-          <ul class="details-list">
-            <li><span>Darslar</span> <span>20 ta</span></li>
-            <li><span>Davomiyligi</span> <span>13 soat</span></li>
-            <li><span>Til</span> <span>O'zbekcha</span></li>
-            <li><span>Sertifikat</span> <span>Ha</span></li>
-          </ul>
-          <div class="social-links">
-            <span>f</span> <span>✈</span> <span>📷</span> <span>📺</span>
-          </div>
-        </div>
-      </div>
+
+        <div class="shape green-dark-rect"></div>
+        <div class="shape green-light-rect"></div>
+        <div class="shape green-med-rect"></div>
     </div>
-  </body>
-</html>
+
+</body>
+</html> 
