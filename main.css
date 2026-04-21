@@ -82,3 +82,56 @@
     background-color: black;
     border-radius: 50%;
 }       
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.container {
+    margin-bottom: 50px;
+    border: 1px dashed #ccc;
+    padding: 10px;
+    height: 120px;
+}
+
+.box {
+    width: 80px;
+    height: 80px;
+    display: inline-block; 
+    color: black;
+    vertical-align: top;
+    text-align: left;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+
+.static {
+    position: static;
+}
+
+
+.relative {
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+
+.relative-parent {
+    position: relative; 
+}
+
+.absolute {
+    position: absolute;
+    top: 50px;
+    left: 20px;
+}
