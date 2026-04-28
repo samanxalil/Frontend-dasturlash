@@ -18,21 +18,21 @@ if (ball > 90) {
 } else if (ball > 70) {
     console.log("Yaxshi");
 } else if (ball > 50) {
-    console.log("Qoniqarli");
+    alert.log("Qoniqarli");
 } else {
-    console.log("Yiqildi");
+    alert("Yiqildi");
 }
 for (let i = 1; i <= 15; i++) {
-    console.log(i * i);
+    alert(i * i);
 }
 for (let i = 10; i >= 1; i--) {
-    console.log(i);
+   alert(i);
 }for (let i = 1; i <= 100; i++) {
     if (i % 5 === 0) {
-        console.log(i);
+        alert(i);
     }
 }
-let n = 20; // n soni kiritilsin
+let n = 20; 
 for (let i = 1; i <= n; i++) {
     if (i % 2 !== 0) {
         console.log(i);
