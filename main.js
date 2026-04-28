@@ -1,52 +1,56 @@
-
-let son = prompt ("son kiriting:");
-if (son % 2 === 0){
- console.log("Juft son");
-}else{
-    console.log("Toq son");
-    
+let son = 8; // Masalan
+if (son % 2 === 0) {
+    console.log("Juft son");
+} else
+     {
+   
+        console.log("Toq son");
 }
-
- let a = +prompt("Birinchi sonni kiriting:");
-let b = +prompt("Ikkinchi sonni kiriting:");
-
+let a = 15, b = 25;
 if (a > b) {
-    console.log("Kattasi: " + a);
-} else if (b > a) {
-    console.log("Kattasi: " + b);
+    console.log(a);
 } else {
-    console.log("Ular teng");
-} 
-
-    let tugilganYil = prompt("Tug'ilgan yilingizni kiriting:");
-let joriyYil = new Date().getFullYear();
-let yosh = joriyYil - tugilganYil;
-console.log("Sizning yoshingiz: " + yosh);
-
-let x = 10, y = 25, z = 15;
-let max = Math.max(x, y, z);
-console.log("Eng kattasi: " + max);
-
-let n1 = +prompt("1-son:");
-let n2 = +prompt("2-son:"); 
-let amal = prompt("Amalni kiriting (+, -, *, /):");
-
-switch(amal) {
-    case '+': console.log(n1 + n2); break;
-    case '-': console.log(n1 - n2); break;
-    case '*': console.log(n1 * n2); break;
-    case '/': console.log(n1 / n2); break;
-    default: console.log("Noma'lum amal");
+    console.log(b);
 }
- 
-    let n = +prompt("n ni kiriting:");
-let yigindi = 0;    
+let ball = 85;
+if (ball > 90) {
+    console.log("A'lo");
+} else if (ball > 70) {
+    console.log("Yaxshi");
+} else if (ball > 50) {
+    console.log("Qoniqarli");
+} else {
+    console.log("Yiqildi");
+}
+for (let i = 1; i <= 15; i++) {
+    console.log(i * i);
+}
+for (let i = 10; i >= 1; i--) {
+    console.log(i);
+}for (let i = 1; i <= 100; i++) {
+    if (i % 5 === 0) {
+        console.log(i);
+    }
+}
+let n = 20; // n soni kiritilsin
 for (let i = 1; i <= n; i++) {
-    yigindi += i;
+    if (i % 2 !== 0) {
+        console.log(i);
+    }
 }
-console.log("Yig'indi: " + yigindi);
-
-let son = +prompt("Qaysi sonning ko'paytirish jadvali kerak?");
-for (let i = 1; i <= 10; i++) {
-    console.log(`${son} x ${i} = ${son * i}`);
+let oy = 4;
+switch (oy) {
+    case 1: console.log("Yanvar"); break;
+    case 2: console.log("Fevral"); break;
+    case 3: console.log("Mart"); break;
+    case 4: console.log("Aprel"); break;
+    case 5: console.log("May"); break;
+    case 6: console.log("Iyun"); break;
+    case 7: console.log("Iyul"); break;
+    case 8: console.log("Avgust"); break;
+    case 9: console.log("Sentabr"); break;
+    case 10: console.log("Oktabr"); break;
+    case 11: console.log("Noyabr"); break;
+    case 12: console.log("Dekabr"); break;
+    default: console.log("Bunday oy yo'q");
 }
